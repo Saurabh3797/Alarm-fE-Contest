@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Alarm</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <audio id="alarm-tone" src="./sound/beep-warning-6387.mp3" controls></audio>
+    <main class="contnainer">
+        <div>
+            <h1>Multiple Timers App</h1>
+        </div>
+        <div class="setTime">
+            <h2 class="Text-setTime">Set time :</h2> 
+            <input type="number" placeholder="HH" id="hour"  required>
+            <span><h2 class="Text-setTime">:</h2></span>
+            <input id="min" type="number" placeholder="MM" required>
+            <span><h2 class="Text-setTime">:</h2></span>
+            <input id="sec" type="number" placeholder="SS" required>
+            <button class="setBtn" id="set_btn" >set</button>
+        </div>
+        <div>
+            <h2 class="massage">Current Timers</h2>
+        </div>
+        <p class="text_shownOnly" id="textmassage">You have no timers currently!</p>
+       
+        <section class="list_timers" id="list_timers" >
+            <!-- settimefirts -->
+            <!-- <div class="timers">
+                <h3 class="Text-setTime">Time Left :</h3> 
+                
+                 <input type="text" placeholder="HH" >
+                 <span><h2 class="Text-setTime">:</h2></span><input  type="text" placeholder="MM">
+                 <span><h2 class="Text-setTime">:</h2></span><input  type="text" placeholder="SS">
+     
+                <button class="deletBtn">Delete</button>
+             </div> -->
+
+          
+            <!-- settimeecond -->
+        </section>
+
+        <!-- <section >
+            <div class="finish_timers">
+                 <h1 class="Time_out">Timer is Up!</h1> 
+                <button class="StopBtn">Stop</button> 
+             </div> 
+        </section> -->
+        
+    </main>
+    
+        
+    
+    
+    
+   
+    
+    <script src="./script.js"></script>
+</body>
+</html>

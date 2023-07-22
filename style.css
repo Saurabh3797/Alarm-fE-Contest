@@ -1,0 +1,115 @@
+*{
+    color: white;
+    background-color:#1D1D23;
+}
+
+h1{
+    align-self:center;
+
+}
+
+.contnainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 30px; */
+}
+
+.setTime{
+    background-color: #34344A;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width:550px;
+    justify-content: space-evenly;
+}
+
+input{
+    background-color: #34344A;
+    border: none;
+    width:35px;
+    height:40px;
+}
+
+input::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+span{
+    background-color:#34344A;
+}
+
+.Text-setTime{
+    background-color:#34344A;
+}
+
+.setBtn{
+   background-color:#F0F757;
+   color: black !important;
+   border: none;
+   width:70px;
+   height:30px;
+   border-radius: 13px ;
+   font-size: medium;
+}
+
+.timers{
+    background-color: #34344A;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width:550px;
+    justify-content: space-evenly;
+}
+
+.deletBtn{
+    background-color:#F0F757;
+    color: black !important;
+    border: none;
+    width:70px;
+    height:30px;
+    border-radius: 13px ;
+    font-size: medium;
+ }
+
+ .text_shownOnly{
+    display: block; /* make it none if timmer on */
+ }
+
+
+
+ .finish_timers{
+    width: 580px;
+    display: flex;
+    gap: 40px;
+    background-color:#F0F757 ;
+    margin:15px;
+    border-radius: 13px
+ }
+
+ .Time_out{
+   width: 370px;
+   text-align: center;
+   margin-left: 50px;
+   background-color:#F0F757 !important;
+   color: black !important;
+   font-size: 30px;
+ }
+
+ .StopBtn{
+    width:70px;
+    height:30px;
+    margin-top: 24px;
+    border-radius: 13px;
+ }
+
+ .massage{
+    background-color: #39393E;
+    padding:20px 80px 20px 80px;
+    border-radius: 10px;
+ }
